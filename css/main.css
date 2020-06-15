@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+     margin-top: 90px;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+    #upper-section{
+        background: hsl(228, 56%, 26%);
+        border: 1px solid hsl(228, 56%, 26%) ;
+        border-radius: 10px;
+        border-top-right-radius: 120px;
+        /* position: relative; */
+        margin-top: 150px ;
+        margin-left: 40px;
+        margin-right: 40px;
+        height: fit-content;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+        #upper-section #icon-1 img{
+            height: 15px;
+            align-items: center;
+        }
+
+        #upper-section #icon-2 img{
+            height: 15px;
+            align-items: center;
+        }
+
+        #upper-section #icon-3 img{
+            height: 10px;
+            align-items: center;
+        }
+
+        #logo{
+            margin-left: 40px;
+        }
+
+        #logo img{
+          height: 30px;  
+        }
+    
+       #icon-1{
+            background: hsl(229, 57%, 11%);
+            width: fit-content;
+            /* float: left;    */
+            /* position: absolute; */
+            position: relative;
+            top: 30px;
+            left: 40px;
+            padding: 6px;
+            border-radius: 5px;
+            
+        }
+        #icon-2{
+            background: hsl(229, 57%, 11%);
+            width: fit-content;
+            /* float: left;    */
+            /* position: absolute; */
+            position: relative;
+            padding: 6px;
+            border-radius: 5px;
+            left: 90px;
+        }
+        #icon-3{
+            background: hsl(229, 57%, 11%);
+            width: fit-content;
+            /* float: left;    */
+            /* position: absolute; */
+            position: relative;
+            top: -30px;
+            left: 140px;
+            padding: 6px;
+            border-radius: 5px;
+        }
+
+        
+   #lower-section{
+        background: hsl(228, 56%, 26%);
+        border: 1px solid hsl(228, 56%, 26%) ;
+        border-radius: 10px;
+        margin-top: 20px ;
+        margin-left: 40px;
+        margin-right: 40px;
+        height: fit-content;
+        padding-top: 50px;
+        position: relative;
+    }    
+    
+    #lower-section h4{
+        /* position: relative; */
+        margin-top: -30px;
+        margin-left: 40px;
+        margin-right: 40px;
+        color: grey;
+        font-family: "Raleway", sans-serif;
+    }
+
+    #lower-section h4 span{
+        color: azure;
+        
+    }
+
+    #gb-meter{
+        background: hsl(229, 57%, 11%);
+        border: 1px solid black;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 70px;
+        height: 10px;
+    }
+
+    #gb-progress{
+        position: relative;
+        background: linear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+        top: 10px;
+        width: 80%;
+        border-radius: 30px;
+        height: 10px;
+        top: 0;
+    }
+
+    #gb-progress span{
+        color: white;
+        font-size: 95px;
+        position: relative;
+        top:-78px;
+        left: 95%;
+    }
+
+    #lower-section h5{
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 25px;
+        color: white;
+    }
+
+    #gb-1000{
+        margin-left: 260px;
+    }
+
+    #lower-section p{
+        background: white;
+        width: fit-content;
+        font-size: x-large;
+        font-weight: bolder;
+        padding: 20px;
+        border-radius: 10px;
+        position: absolute;
+        left: 120px;
+        top: 115px;
+        font-family: "Raleway", sans-serif;
+    }
+
+    #lower-section p span{
+        color: grey;
+        font-size: x-small;
+        display: block;
+        margin-top: -20px;
+        margin-left: 45px;
+    }
+    
+/* desktop view */
+
+@media screen and (min-width: 900px){
+    body{
+        background: url(../images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        margin-bottom: 320px;
+        background-color: hsl(229, 57%, 11%);
+        /* height: 10vh; */
+    }
+
+    #general-container{
+        display: flex;
+
+    }
+
+    #upper-section{
+        background: hsl(228, 56%, 26%);
+        border: 1px solid hsl(228, 56%, 26%) ;
+        border-radius: 10px;
+        border-top-right-radius: 120px;
+        position: relative;
+        /* margin-top: 150px ;
+        margin-left: 40px;
+        margin-right: 40px; */
+        height: fit-content;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        width: 20%;
+        left: 130px;
+    }
+
+    #lower-section{
+        background: hsl(228, 56%, 26%);
+        border: 1px solid hsl(228, 56%, 26%) ;
+        border-radius: 10px;
+        /* margin-top: 20px ;
+        margin-left: 40px;
+        margin-right: 40px; */
+        height: fit-content;
+        padding-top: 50px;
+        position: relative;
+        width: 35%;
+        top: 170px;
+        left: 200px;
+    } 
+
+    #lower-section h4{
+        /* position: relative; */
+        margin-top: -30px;
+        margin-left: 40px;
+        margin-right: 40px;
+        color: grey;
+        font-size: x-small;
+    }
+
+    #lower-section p{
+        background: white;
+        width: fit-content;
+        font-size: x-large;
+        font-weight: bolder;
+        padding: 20px;
+        border-radius: 10px;
+        position: absolute;
+        left: 280px;
+        top: -50px;
+    }
+
+ .attribution{
+     display: none;
+ }
+    
+}
+
+/* mobile view */
+
+@media screen and (max-width: 360px){
+    .attribution{
+        display: initial;
+        position: relative;
+        top: 60px;
+        left: 30px;
+    }
+
+    #gb-progress span{
+        color: white;
+        font-size: 95px;
+        position: relative;
+        top:-78px;
+        left: 90%;
+    }
+
+    #gb-1000{
+        margin-left: 120px;
+    }
+
+    #lower-section p{
+        left: 50px;
+        top: 130px;
+    }
+}
